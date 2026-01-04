@@ -2,12 +2,12 @@
 version: "3"
 services:
  devopsdb:
-   image: jkemadevops/myapp03012026:dbimage
+   image: jkemadevops/myapp04012026:dbimage
    ports:
      - "3306:3306"
 
  application:
-   image: jkemadevops/myapp03012026:appimage
+   image: jkemadevops/myapp04012026:appimage
    ports:
      - "1111:8080"
    depends_on:
